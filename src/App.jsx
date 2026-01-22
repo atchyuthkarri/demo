@@ -8,6 +8,10 @@ import ClickEvent from './ClickEvent';
 import FormFile from './FormFile';
 import UseStateComponent from './useStatePractice';
 import ControlledComponents from "./FormHandling/ControlledComponents"
+import SampleArray from './SampleArray';
+import UserPage from './UserPage';
+import Employee from './Employee';
+
 
 export const App = () => {
 
@@ -42,7 +46,11 @@ export const App = () => {
       {/* <ClickEvent/>
       <FormFile/> */}
       {/* <UseStateComponent/> */}
-      <ControlledComponents/>
+      {/* <ControlledComponents/>
+      <SampleArray/>
+      <UserPage/> */}
+
+      <Employee/>
     </div>
 
   )
