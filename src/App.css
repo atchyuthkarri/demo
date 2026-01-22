@@ -1,0 +1,23 @@
+
+.form-section{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 30vh;
+}
+.form-section input{
+  width: 10rem;
+  height: 2rem;
+}
+.form-section button{
+  width: 5rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
